@@ -31,9 +31,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/three/build/three.min.js",
+              "./node_modules/three/examples/js/loaders/BinaryLoader.js"
+            ]
           },
           "configurations": {
             "production": {
